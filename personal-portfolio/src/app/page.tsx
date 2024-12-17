@@ -5,12 +5,14 @@ import Projects from "./(components)/Projects";
 import Communities from "./(components)/Communities";
 import Footer from "./(components)/Footer";
 import Introduction from "./(components)/Introduction";
+import Timeline from "./(components)/Timeline";
 
 export default function Home() {
   return (
       <>
      <Navbar/>
      <Introduction/>
+     <Timeline/>
      <Resume/>
      <Projects/>
      <Communities/>

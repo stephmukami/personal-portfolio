@@ -31,3 +31,70 @@ body {
 .handwritten {
   font-family: 'Phitagate', sans-serif;
 }
+
+.timelineContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  position: relative;
+  background-color:#F5F5F5;
+}
+
+.timelineTitle {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.timeline {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background-color: #ccc;
+  transform: translateX(-50%);
+}
+
+.timelineEvent {
+  position: relative;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.timelineEvent.left {
+  text-align: right;
+  left: 0;
+}
+
+.timelineEvent.right {
+  left: 50%;
+}
+
+.content {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.content p {
+  font-size: 14px;
+  color: #666;
+}
+
+
