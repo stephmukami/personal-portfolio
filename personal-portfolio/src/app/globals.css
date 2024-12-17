@@ -13,9 +13,21 @@
     --foreground: #ededed;
   }
 }
+@font-face{
+  font-family:'InstrumentSans';
+  src:url('/fonts/InstrumentSans-VariableFont_wdth,wght.ttf')format('truetype');
+}
+
+@font-face{
+  font-family:'Phitagate';
+  src:url('/fonts/Phitagate-Regular.otf')format('opentype');
+}
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'InstrumentSans', sans-serif;
+}
+.handwritten {
+  font-family: 'Phitagate', sans-serif;
 }
