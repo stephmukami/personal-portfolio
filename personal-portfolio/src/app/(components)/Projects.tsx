@@ -5,7 +5,7 @@ type Props = {}
 function Projects({}: Props) {
   return (
     <>
-    <div className='text-font-purple bg-brand-purple p-4'>
+    <div className='text-font-purple bg-brand-purple p-4 mb-6'>
     <h2 className='text-xl font-semibold mb-4 text-center mt-3'>Side Projects</h2>
 
     <div className="flex-parent flex flex-col md:flex-row border border-red-600">
