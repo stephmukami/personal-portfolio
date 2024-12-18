@@ -15,7 +15,7 @@ const Timeline: React.FC = () => {
   ];
 
   return (
-    <div className="timelineContainer">
+    <div className="timelineContainer p-8 border border-red-400">
       <h2 className="timelineTitle">Past Work</h2>
       <div className="timeline">
         {events.map((event, index) => (

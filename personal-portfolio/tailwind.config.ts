@@ -18,6 +18,7 @@ export default {
         "card-yellow":"#F4F1E8",
         "font-purple":"#2A3161",
         "card-purple":"EAE4E9",
+        "tag-purple":"#E8DFFF"
 
 
       },

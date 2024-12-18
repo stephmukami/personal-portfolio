@@ -18,7 +18,7 @@ function Introduction({}: Props) {
 
         </div>
     </div>
-    <div className="technologies text-center border border-red-400 p-12 mb-8">
+    <div className="technologies text-center border border-red-400 p-12 mb-2">
         <h2 className='text-xl font-semibold mb-8'>Tools of Trade</h2>
         <div className="tools-images flex justify-center space-x-8 mb-8 p-4">
             <img src="./icons8-git-96.png" alt="" className="w-[60px] h-[60px]" />
