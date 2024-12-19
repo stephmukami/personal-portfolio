@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from "next/link"
 type Props = {}
 
 function Projects({}: Props) {
@@ -10,7 +10,15 @@ function Projects({}: Props) {
 
     <div className="flex-parent flex flex-col md:flex-row border border-red-600">
         <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
-            <div className='font-semibold mb-1'>E-Points</div>
+        <div className='flex space-x-3 items-center'>
+                <h3 className='font-semibold'>E-points</h3>
+                <Link href="https://github.com/stephmukami/e-points">
+                    <div>
+                        <img src="./icons8-link-64 (1).png" className='w-[20px] h-[20px]' alt="" />
+                    </div>
+                </Link>
+              
+            </div>
             <img src="./epoints-app-p.PNG" className="w-full h-[200px] object-contain" alt="E-Points App" />
         </div>
         <div className="flex-child-text flex flex-col p-3 justify-center">
@@ -24,7 +32,16 @@ function Projects({}: Props) {
 
     <div className="flex-parent flex flex-col md:flex-row border border-red-600">
         <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
-            <div>Medbot</div>
+            <div className='flex space-x-3 items-center'>
+                <h3 className='font-semibold'>Medbot</h3>
+                <Link href="https://github.com/stephmukami/medbot">
+                    <div>
+                        <img src="./icons8-link-64 (1).png" className='w-[20px] h-[20px]' alt="" />
+                    </div>
+                </Link>
+              
+            </div>
+
             <img src="./medbot-app-p.PNG" className="w-full h-[200px] object-contain" alt="Medbot App" />
         </div>
         <div className="flex-child-text flex flex-col p-3 justify-center">
@@ -33,15 +50,24 @@ function Projects({}: Props) {
             <li className="mb-1">- Built using Next.js for the web framework and FastAPI for the backend API services.</li>
             <li className="mb-1">- Integrated DenseNet, a deep learning computer vision model, for image classification and diagnosis.</li>
         </ul>
+
         </div>
     </div>
 
     <div className="flex-parent flex flex-col md:flex-row border border-red-600">
         <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
-            <div>iPrevent</div>
+        <div className='flex space-x-3 items-center'>
+                <h3 className='font-semibold'>iPrevent</h3>
+                <Link href="https://github.com/stephmukami/iprevent-diabetes-risk-prediction">
+                    <div>
+                        <img src="./icons8-link-64 (1).png" className='w-[20px] h-[20px]' alt="" />
+                    </div>
+                </Link>
+              
+            </div>
             <img src="./iprevent-app-p.PNG" className="w-full h-[200px] object-contain" alt="iPrevent App" />
         </div>
-        <div className="flex-child-text flex flex-col justify-center">
+        <div className="flex-child-text flex flex-col justify-center p-3">
         <ul>
             <li className="mb-1">- ML-powered app for assessing diabetes risk level among adults.</li>
             <li className="mb-1">- Built using Next.js for the front-end, Neon.db for database management, and Flask for the back-end API services.</li>
@@ -54,10 +80,18 @@ function Projects({}: Props) {
 
     <div className="flex-parent flex flex-col md:flex-row border border-red-600">
         <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
-            <div>Kikwetu Store</div>
+        <div className='flex space-x-3 items-center'>
+                <h3 className='font-semibold'>Kikwetu Store</h3>
+                <Link href="https://github.com/stephmukami/kikwetu_store">
+                    <div>
+                        <img src="./icons8-link-64 (1).png" className='w-[20px] h-[20px]' alt="" />
+                    </div>
+                </Link>
+              
+            </div>
             <img src="./kikwetu-app-p.PNG" className="w-full h-[200px] object-contain" alt="Kikwetu Store App" />
         </div>
-        <div className="flex-child-text flex flex-col justify-center">
+        <div className="flex-child-text flex flex-col justify-center p-3">
         <ul>
             <li className="mb-1">- E-commerce store built with React for the front-end and MongoDB for database management.</li>
             <li className="mb-1">- Focuses on handling the checkout process for user items.</li>

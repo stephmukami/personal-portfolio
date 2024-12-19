@@ -17,7 +17,7 @@ function Resume({}: Props) {
           </ul>
         </div>
 
-        <div className="resume-tab bg-brand-grey md:w-[1600px] rounded-md  rounmb-2">
+        <div className="resume-tab bg-brand-grey md:w-[1600px] rounded-md  rounded-md mb-2">
           <h4 className="exp-header font-semibold mb-3 p-3">Data Trace International - Software Engineer</h4>
           <ul className='mb-4 p-3'>
             <li className='mb-1'>- Led design and development of the KenVIP responsive web portal aimed at digitizing national vaccination coverage records and enhancing decision-making within the Ministry of Health.</li>
