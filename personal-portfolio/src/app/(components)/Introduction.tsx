@@ -12,7 +12,7 @@ function Introduction({}: Props) {
             I am a Full Stack<br></br> Software Engineer
           </h4>
           <p>
-            I love building products that delight and make life easier and I'm honing my craft in creating scalable systems. <br></br> I contribute to tech communities and I'm venturing into open-source projects to grow while giving back.
+            I love building products that delight and make life easier and I am honing my craft in creating scalable systems. <br></br> I contribute to tech communities and I am venturing into open-source projects to grow while giving back.
           </p>
         </div>
 

@@ -6,7 +6,7 @@ type Props = object;
 function Communities({}: Props) {
   return (
     <>
-      <h2 className="text-xl font-semibold mb-8 text-center">Communities I'm part of</h2>
+      <h2 className="text-xl font-semibold mb-8 text-center">Communities Iam part of</h2>
 
       <div className="tools-images flex flex-col md:flex-row justify-center md:space-x-8 mb-8 p-4 items-center">
         <Link href="https://developers.google.com/womentechmakers">

@@ -43,7 +43,7 @@ function Projects({}: Props) {
               </li>
               <li className="mb-1">
                 - Built using Next.js for the framework, Prisma ORM for database
-                management, and Africa's Talking Airtime API for airtime distribution.
+                management, and Africa Is Talking Airtime API for airtime distribution.
               </li>
             </ul>
           </div>
