@@ -17,7 +17,7 @@ function Footer({}: Props) {
         
         
 
-        <div className="nav-links flex flex-col space-y-2 md:flex-row md:space-x-[50px] md:space-y-0 justify-center items-center border border-red-700">
+        <div className="nav-links flex   space-x-2 md:flex-row md:space-x-[50px] md:space-y-0 justify-center items-center border border-red-700">
             <Link href="https://www.linkedin.com/in/stephanie-mukami/">
             <img src="icons8-linkedin-logo-50.png " className='w-[20px] h-[20px]'></img>
             </Link>

@@ -9,12 +9,27 @@ import Introduction from "./(components)/Introduction";
 export default function Home() {
   return (
       <>
-     <Navbar/>
-     <Introduction/>
-     <Resume/>
-     <Projects/>
-     <Communities/>
-     <Footer/>
+     <Navbar />
+     <div>
+     <Introduction  />
+     </div>
+     <div id="resume">
+     <Resume  />
+     </div>
+
+     <div id="projects">
+     <Projects />
+
+     </div>
+     <div id="communities">
+     <Communities />
+
+     </div>
+
+     <div id="contact">
+     <Footer />
+
+     </div>
       </>
   );
 }

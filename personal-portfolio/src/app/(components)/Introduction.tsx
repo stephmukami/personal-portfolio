@@ -9,8 +9,11 @@ function Introduction({}: Props) {
         <div className="text-intro border border-red-500 p-10">
             <h2 className='font-semibold text-2xl md:text-3xl mb-10'>Hey there !</h2>
             <h4 className='font-semibold text-4xl md:text-6xl mb-4'>I am a Full Stack<br></br> Software Engineer</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Et qui voluptate saepe ex ea temporibus nam quibusdam fugit, provident illo?</p>
+        <p>
+        I love building products that delight and make life easier 
+        and I'm honing my craft in creating scalable systems. <br></br>
+        I contribute to tech communities and I'm venturing into open-source projects to grow while giving back.
+        </p>
         </div>
 
         <div className="image-intro border border-red-400 flex justify-center items-center">
@@ -20,7 +23,7 @@ function Introduction({}: Props) {
     </div>
     <div className="technologies text-center border border-red-400 p-12 mb-2">
         <h2 className='text-xl font-semibold mb-8'>Tools of Trade</h2>
-        <div className="tools-images flex justify-center space-x-8 mb-8 p-4">
+        <div className="tools-images flex-wrap flex justify-center space-x-8 mb-8 p-4">
             <img src="./icons8-git-96.png" alt="" className="w-[60px] h-[60px]" />
             <img src="./icons8-python-96.png" alt="" className="w-[60px] h-[60px]" />
             <img src="./icons8-typescript-96.png" alt="" className="w-[60px] h-[60px]" />
@@ -35,8 +38,6 @@ function Introduction({}: Props) {
             <img src="./icons8-mysql-logo-96.png" alt="" className="w-[60px] h-[60px]" />
             <img src="./icons8-docker-logo-96.png" alt="" className="w-[60px] h-[60px]" />
 
-            
-  
         </div>
 
         
