@@ -5,19 +5,19 @@ type Props = {}
 function Footer({}: Props) {
   return (
     <>
-    <div className='flex-parent  font-medium flex flex-col md:flex-row  space-y-3 md: justify-between align-center border border-emerald-400  bg-brand-grey p-[70px]'>
+    <div className='flex-parent justify-center  font-medium flex flex-col md:flex-row  space-y-3 md:justify-between align-center   bg-brand-grey p-[70px]'>
     
-        <div className="written-name border border-red-400">
-        <h4 className="text-sm font-light">  Stephanie Mukami - Your SWE buddy 👩‍💻  </h4>
+        <div className="written-name ">
+        <h4 className="text-sm font-light">  Stephanie Mukami - Your neighbourhood SWE 👩‍💻  </h4>
         </div>
 
-        <div className="written-name border border-red-400">
+        <div className="written-name ">
         <h4 className="text-sm font-light">  &copy; {new Date().getFullYear()} </h4>
         </div>
         
         
 
-        <div className="nav-links flex   space-x-2 md:flex-row md:space-x-[50px] md:space-y-0 justify-center items-center border border-red-700">
+        <div className="nav-links flex   space-x-2 md:flex-row md:space-x-[50px] md:space-y-0 justify-center items-center ">
             <Link href="https://www.linkedin.com/in/stephanie-mukami/">
             <img src="icons8-linkedin-logo-50.png " className='w-[20px] h-[20px]'></img>
             </Link>

@@ -6,10 +6,10 @@ function Projects({}: Props) {
   return (
     <>
     <div className='text-font-purple bg-brand-purple p-4 mb-6'>
-    <h2 className='text-xl font-semibold mb-4 text-center mt-3'>Side Projects</h2>
+    <h2 className='text-xl font-semibold mb-4 text-center mt-3'>Side Quests</h2>
 
-    <div className="flex-parent flex flex-col md:flex-row border border-red-600">
-        <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
+    <div className="flex-parent flex flex-col md:flex-row ">
+        <div className="flex-child-image flex flex-col  max-w-[400px] w-full p-4">
         <div className='flex space-x-3 items-center'>
                 <h3 className='font-semibold'>E-points</h3>
                 <Link href="https://github.com/stephmukami/e-points">
@@ -30,8 +30,8 @@ function Projects({}: Props) {
         </div>
     </div>
 
-    <div className="flex-parent flex flex-col md:flex-row border border-red-600">
-        <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
+    <div className="flex-parent flex flex-col md:flex-row ">
+        <div className="flex-child-image flex flex-col  max-w-[400px] w-full p-4">
             <div className='flex space-x-3 items-center'>
                 <h3 className='font-semibold'>Medbot</h3>
                 <Link href="https://github.com/stephmukami/medbot">
@@ -54,8 +54,8 @@ function Projects({}: Props) {
         </div>
     </div>
 
-    <div className="flex-parent flex flex-col md:flex-row border border-red-600">
-        <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
+    <div className="flex-parent flex flex-col md:flex-row ">
+        <div className="flex-child-image flex flex-col  max-w-[400px] w-full p-4">
         <div className='flex space-x-3 items-center'>
                 <h3 className='font-semibold'>iPrevent</h3>
                 <Link href="https://github.com/stephmukami/iprevent-diabetes-risk-prediction">
@@ -78,8 +78,8 @@ function Projects({}: Props) {
         </div>
     </div>
 
-    <div className="flex-parent flex flex-col md:flex-row border border-red-600">
-        <div className="flex-child-image flex flex-col border border-fuchsia-500 max-w-[400px] w-full p-4">
+    <div className="flex-parent flex flex-col md:flex-row ">
+        <div className="flex-child-image flex flex-col  max-w-[400px] w-full p-4">
         <div className='flex space-x-3 items-center'>
                 <h3 className='font-semibold'>Kikwetu Store</h3>
                 <Link href="https://github.com/stephmukami/kikwetu_store">
